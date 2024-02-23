@@ -57,3 +57,17 @@ section {
     width: 100%;
     max-height: auto;
 }
+
+.container .btn {
+    position: absolute;
+    top: 65%;
+    left: 70%;
+    background-color: #7d5e3d;
+    color: #fff8f8;
+    font-size: 16px;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: #ffffff;
+    text-align: center;
+}

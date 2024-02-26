@@ -71,3 +71,17 @@ section {
     border-color: #ffffff;
     text-align: center;
 }
+
+.intro {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px;
+    margin: 0 250px 0 250px;
+}
+
+.intro p {
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}

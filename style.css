@@ -36,6 +36,10 @@ nav a {
     color: #333;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
 header img {
     width: 150px;
     height: auto;
@@ -70,6 +74,10 @@ section {
     border-radius: 5px;
     border-color: #ffffff;
     text-align: center;
+}
+
+.container .btn:hover {
+    background-color: #aa8660;
 }
 
 .intro {

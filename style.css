@@ -104,3 +104,18 @@ section {
     height: 100px;
     margin-bottom: 15px;
 }
+
+.cookies {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.cookie {
+    display: inline-block;
+    margin: 20px;
+}
+
+.cookie img {
+    width: 200px;
+    border-radius: 50px;
+}

@@ -119,3 +119,20 @@ section {
     width: 200px;
     border-radius: 50px;
 }
+
+.faq-section {
+    background-color: #f8e9d9;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin: 0 70px 0 70px;
+    padding-bottom: 10px;
+}
+
+.faq-section .question {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.faq-section .answer {
+    margin-bottom: 20px;
+}

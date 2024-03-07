@@ -179,6 +179,25 @@ footer {
 
 .mascot {
     width: 125px;
+    animation: rotate 4s infinite linear;
+}
+
+@keyframes rotate {
+    25% {
+        transform: rotate(30deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(-30deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
 }
 
 .mascot-message {

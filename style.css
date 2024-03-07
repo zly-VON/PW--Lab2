@@ -338,5 +338,7 @@ footer {
         bottom: 110px;
         padding: 15px 20px;
         font-size: 13px;
+        font-family: 'Comic Neue','Comic Sans MS', cursive, sans-serif;
+        font-weight: 700;
     }
 }

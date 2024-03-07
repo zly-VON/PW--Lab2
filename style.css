@@ -165,6 +165,45 @@ footer {
     display: none;
 }
 
+.cookie-mascot {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    transition: opacity 2s;
+    opacity: 0;
+}
+
+.cookie-mascot.visible {
+    opacity: 1;
+}
+
+.mascot {
+    width: 125px;
+}
+
+.mascot-message {
+    display: none;
+    position: absolute;
+    right: 110px;
+    bottom: 130px;
+    background-color: #ea9c68;
+    color: #FFF;
+    padding: 15px 20px;
+    border-radius: 15px 15px 0 15px;
+    border: 2px solid #FFF;
+    box-shadow: 0px 5px 10px #00000033;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mascot:hover+.mascot-message,
+.mascot-message:hover {
+    display: block;
+
+}
+
 @media screen and (max-width: 1024px) {
     header {
         padding: 10px 0;
@@ -269,5 +308,16 @@ footer {
         font-style: italic;
         color: #aa8660;
         font-weight: bold;
+    }
+
+    .mascot {
+        width: 100px;
+    }
+
+    .mascot-message {
+        right: 100px;
+        bottom: 110px;
+        padding: 15px 20px;
+        font-size: 13px;
     }
 }

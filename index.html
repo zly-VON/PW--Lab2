@@ -7,6 +7,12 @@
   <title>My landing page</title>
   <link rel="stylesheet" href="reset.css" />
   <link rel="stylesheet" href="style.css" />
+  <script>
+    setTimeout(() => {
+      const mascot = document.querySelector('.cookie-mascot');
+      mascot.classList.add('visible');
+    }, 1700);
+  </script>
 </head>
 
 <body>
@@ -29,6 +35,11 @@
       </form>
     </div>
   </section>
+
+  <div class="cookie-mascot">
+    <img class="mascot" src="assets/mascot.png" alt="Cookie Mascot">
+    <div class="mascot-message">Welcome to our cookie shop!</div>
+  </div>
 
   <section id="hero" class="intro">
     <h2>Welcome to Delicious Bites!</h2>

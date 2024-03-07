@@ -161,6 +161,10 @@ footer {
     position: relative;
 }
 
+#testimonials {
+    display: none;
+}
+
 @media screen and (max-width: 1024px) {
     header {
         padding: 10px 0;
@@ -227,5 +231,43 @@ footer {
 
     footer {
         padding: 20px 0;
+    }
+
+    #testimonials {
+        display: block;
+        background-color: #f8e9d9;
+        padding-top: 20px;
+        text-align: center;
+        border-radius: 50px;
+        margin: 0px 20px 50px 20px;
+    }
+
+    #testimonials h2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .testimonial {
+        margin-bottom: 40px;
+    }
+
+    .testimonial img {
+        width: 120px;
+        border-radius: 50%;
+        margin: 0 auto 20px;
+        border: 4px solid #f8e9d9;
+    }
+
+    .testimonial p {
+        color: #333;
+        margin-bottom: 20px;
+        line-height: 1.6;
+        padding: 0 20px;
+    }
+
+    .testimonial .customer-name {
+        font-style: italic;
+        color: #aa8660;
+        font-weight: bold;
     }
 }

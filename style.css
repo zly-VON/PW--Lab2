@@ -4,6 +4,10 @@ body {
     padding: 0;
 }
 
+.custom-bg {
+    background-color: #f8e9d9;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -121,7 +125,7 @@ section {
     margin-bottom: 15px;
 }
 
-.cookies {
+/* .cookies {
     padding: 50px 0;
     text-align: center;
 }
@@ -134,7 +138,7 @@ section {
 .cookie img {
     width: 200px;
     border-radius: 50px;
-}
+} */
 
 .faq-section {
     background-color: #f8e9d9;
@@ -171,6 +175,7 @@ footer {
     bottom: 20px;
     transition: opacity 2s;
     opacity: 0;
+    z-index: 999;
 }
 
 .cookie-mascot.visible {
@@ -277,10 +282,10 @@ footer {
         width: 150px;
     }
 
-    .cookie img {
+    /* .cookie img {
         width: 150px;
         border-radius: 30px;
-    }
+    } */
 
     .faq-section {
         padding-bottom: 60px;

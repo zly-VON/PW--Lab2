@@ -22,25 +22,26 @@
 </head>
 
 <body>
-  <header>
-    <img src="assets/logo.png">
-    <h1>Delicious Bites: Your Cookie Shop</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#hero">About Us</a>
-      <a href="#our-cookies">Our Cookies</a>
-      <a href="#faq-section">FAQs</a>
-    </nav>
-  </header>
-
-  <section id="home" class="banner">
+  <header class="custom-bg">
     <div class="container">
-      <img id="banner" src="assets/banner.png">
-      <form method="get" action="#our-cookies">
-        <button class="btn" type="submit">Shop Cookies</button>
-      </form>
+      <div class="row justify-content-center text-center">
+        <div class="col-3">
+          <img src="../assets/logo.png" class="img-fluid" alt="Logo">
+        </div>
+        <div class="col-12">
+          <h1>Delicious Bites: Your Cookie Shop</h1>
+        </div>
+        <div class="col-12 mb-2">
+          <nav>
+            <a href="#" class="text-secondary link-primary m-1">Home</a>
+            <a href="#hero" class="text-secondary link-primary m-1">About Us</a>
+            <a href="#our-cookies" class="text-secondary link-primary m-1">Our Cookies</a>
+            <a href="#faq-section" class="text-secondary link-primary m-1">FAQs</a>
+          </nav>
+        </div>
+      </div>
     </div>
-  </section>
+  </header>
 
   <div class="cookie-mascot">
     <img class="mascot" src="assets/mascot.png" alt="Cookie Mascot">
@@ -48,18 +49,35 @@
   </div>
 
   <section id="hero" class="intro">
-    <h2>Welcome to Delicious Bites!</h2>
-    <p>At Delicious Bites, we invite you to embark on a delectable journey into the world of freshly baked cookies. Step
-      into our cozy bakery and let the aroma of warm, oven-fresh treats tantalize your senses.</p>
-    <p>Indulge in our irresistible selection of artisanal cookies, each lovingly crafted using the finest ingredients
-      and time-honored recipes. Whether you're satisfying a sweet craving, celebrating a special occasion, or simply
-      treating yourself to a moment of pure bliss, Delicious Bites has something to delight every palate.</p>
-    <p>Indulge, savor, and experience the joy of Delicious Bites today!</p>
-
-    <form method="get" action="#our-cookies">
-      <button class="btn" type="submit">Shop Cookies</button>
-    </form>
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-12">
+          <h2>Welcome to Delicious Bites!</h2>
+        </div>
+        <div class="col-lg-10 col-sm-8">
+          <p>At Delicious Bites, we invite you to embark on a delectable journey into the world of freshly baked
+            cookies.
+            Step
+            into our cozy bakery and let the aroma of warm, oven-fresh treats tantalize your senses.</p>
+        </div>
+        <div class="col-lg-10 col-sm-8">
+          <p>Indulge in our irresistible selection of artisanal cookies, each lovingly crafted using the finest
+            ingredients
+            and time-honored recipes. Whether you're satisfying a sweet craving, celebrating a special occasion, or
+            simply
+            treating yourself to a moment of pure bliss, Delicious Bites has something to delight every palate.</p>
+        </div>
+        <div class="col-lg-10 col-sm-8">
+          <p>Indulge, savor, and experience the joy of Delicious Bites today!</p>
+        </div>
+        <div class="col-12">
+          <a href="#our-cookies" class="btn text-light custom-dark-bg mt-1" role="button" aria-pressed="true">Shop Cookies</a>
+        </div>
+      </div>
+    </div>
+    </div>
   </section>
+
 
   <section id="benefits" class="benefits">
     <div class="benefit-item">
